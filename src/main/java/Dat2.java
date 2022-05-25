@@ -35,4 +35,14 @@ public class Dat2 {
     public void setD(String d) {
         this.d = d;
     }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Dat2{" +
+                "a='" + a + '\'' +
+                ", b='" + b + '\'' +
+                ", c='" + c + '\'' +
+                ", d='" + d + '\'' +
+                '}';
+    }
 }
